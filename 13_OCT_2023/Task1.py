@@ -12,7 +12,7 @@ print(num1 == num2)
 
 # Arithmetic Operator:
 # '**' is Exponentiation Operator
-num3 = num1**num2
+num3 = num1 ** num2
 print(num3)
 
 # '^'is XOR operator
@@ -22,4 +22,4 @@ print(num3)
 # num2 = 4 => 1100
 #          => 0111
 
-print(num1^num2)
+print(num1 ^ num2)

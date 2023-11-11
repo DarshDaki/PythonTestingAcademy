@@ -1,4 +1,4 @@
-#String Formating
+# String Formating
 string = "I Like %s" % "Python"
 print(string)
 

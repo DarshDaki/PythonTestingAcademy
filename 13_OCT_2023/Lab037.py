@@ -8,7 +8,7 @@
 x = 5
 y = 10
 
-max_val = x if x >y else y
+max_val = x if x > y else y
 print(max_val)
 
 age = input("Enter your age\n")

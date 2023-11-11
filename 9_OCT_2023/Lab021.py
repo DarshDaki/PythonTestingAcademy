@@ -12,7 +12,5 @@ print(my_shopping_list[3])
 my_task_list = ["need to finish the task 1", "task2", "read book"]
 
 # Mix Data Types
-misc_list = ["darshan","daki", 34, "car", True]
+misc_list = ["darshan", "daki", 34, "car", True]
 print(len(misc_list))
-
-

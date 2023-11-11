@@ -18,7 +18,7 @@ print(x >= y)
 
 x = 5
 y = 5
-print( x >=y) # 5 > 5 or 5== 5 ->  True
+print(x >= y)  # 5 > 5 or 5== 5 ->  True
 # A B O ( 0 - False, 1 - True)
 #  0 0 0
 #  0 1 1

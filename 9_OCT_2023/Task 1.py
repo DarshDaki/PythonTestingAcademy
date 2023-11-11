@@ -5,7 +5,5 @@
 
 
 my_list = []
-for i in range(1,6):
-    my_list[i]= int(input(f"Enter {i} number: \n"))
-
-
+for i in range(1, 6):
+    my_list[i] = int(input(f"Enter {i} number: \n"))

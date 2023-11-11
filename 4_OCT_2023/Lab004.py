@@ -1,5 +1,5 @@
 # print("Hello World")
-print("Darshan","Daki","Lucky",sep="*",end="\t")
+print("Darshan", "Daki", "Lucky", sep="*", end="\t")
 print("Lucky")
 
 # print(self, *args, sep=' ', end='\n', file=None)
@@ -8,5 +8,3 @@ print("Lucky")
 # sep - seperator =  space
 # end = How you want to print the after end
 # file - files we will as discuss
-
-
