@@ -1,15 +1,14 @@
 # String
 # Bunch of Char
 name = "Darshan"
-print("Memory address of : ",name," is -> ",id(name))
+print("Memory address of : ", name, " is -> ", id(name))
 name = "Daki"
-print("Memory address of : ",name," is -> ",id(name))
+print("Memory address of : ", name, " is -> ", id(name))
 
 num = 56
-print("Memory address of : ",num," is -> ",id(num))
+print("Memory address of : ", num, " is -> ", id(num))
 num = 62
-print("Memory address of : ",num," is -> ",id(num))
-
+print("Memory address of : ", num, " is -> ", id(num))
 
 # String Functions
 # Python String Immutable in Nature - They can't changed!, One Created
@@ -60,40 +59,33 @@ print(len(name))
 
 # Replace
 text = "hello world"
-result_rep = text.replace("world","Python")
+result_rep = text.replace("world", "Python")
 print(result_rep)
 
-#index and len
-name  = "Darshan"
+# index and len
+name = "Darshan"
 # len -> 1
 print(len(name))
 # index - 0 to len-1
 # p - 0, r - 1, a - 2, m - 3 , 0-4, d -5
 
 
-#find()
-#Returns the lowest index of a substring in the string.
+# find()
+# Returns the lowest index of a substring in the string.
 # Returns -1 if the substring is not found.
 
 text = "hello world"
 index = text.find("world")
 print(index)
 
-
-
-#count() - count the char -
+# count() - count the char -
 count = text.count("l")
 print(count)
-
 
 name = "p d"
 print(len(name))
 
-
 name = "Darshan"
 print(name)
 del name
-#print(name)
-
-
-
+# print(name)
