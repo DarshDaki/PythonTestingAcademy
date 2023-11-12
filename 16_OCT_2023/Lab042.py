@@ -1,4 +1,4 @@
-# Use the ternary operator to find the maximum of three numbers entered by the user.
+# Find the maximum of three numbers using the ternary operator: three numbers entered by the user.
 
 num1 = int(input("Enter the First number : \n"))
 num2 = int(input("Enter the Second number : \n"))
