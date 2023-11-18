@@ -1,4 +1,5 @@
-fact = int(input("Enter a number to find the factorial:\n"))
+num = int(input("Enter a number to find the factorial:\n"))
+fact = num
 result = 0
 if fact >= 0:
     result = 1
@@ -6,4 +7,4 @@ if fact >= 0:
         result *= fact
         fact = fact - 1
 
-print(f"Factorial of {fact} is: {result}", end="\n")
+print(f"Factorial of {num} is: {result}", end="\n")
