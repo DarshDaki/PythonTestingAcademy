@@ -3,24 +3,17 @@ fib = int(input("Enter a number to find the fibonacci series:\n"))
 
 
 def fibonacci1(num):
-    a = 0
-    b = 1
-    if num == 0:
-        return a
-    elif num == 1:
-        return b
-    else:
-        for i in range(2, num + 1):
-            c = a + b
-            a = b
-            b = c
-        return b
+    a, b = 0, 1
+
+    for i in range(2, num + 3):
+        print(a, end=" ")
+        a, b = b, a + b
 
 
-print(f"Fibonacci series of {fib} is: {fibonacci1(fib)}", end="\n")
+fibonacci1(fib)
 
 # ---------------------- Method 2 : to print entire series ----------------------------
-
+print(end="\n\n")
 fib2 = int(input("Enter a number to find the fibonacci series:\n"))
 
 
@@ -36,10 +29,8 @@ def fibonacci2(num):
         return my_list
     else:
         for i in range(2, num + 1):
-            c = a + b
-            a = b
-            b = c
-            my_list.append(c)
+            a, b = b, a + b
+            my_list.append(b)
         return my_list
 
 

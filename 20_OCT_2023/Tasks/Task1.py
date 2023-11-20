@@ -5,7 +5,7 @@ def reverse_string(input_string):
     return reverse_str
 
 
-user_input = input("Enter a input to find if it's a palindrome or not:\n")
+user_input = input("Enter a input to find if it's a palindrome or not:\n").lower()
 
 if user_input == reverse_string(user_input):
     print("Palindrome")
