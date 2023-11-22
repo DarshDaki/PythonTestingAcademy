@@ -5,3 +5,8 @@ if reverse_str == original_str:
     print("Palindrome")
 else:
     print("Not a Palindrome")
+
+
+add = lambda x,y : x+y
+
+print(add(3,4))
