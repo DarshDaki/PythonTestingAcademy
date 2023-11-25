@@ -6,7 +6,6 @@ if reverse_str == original_str:
 else:
     print("Not a Palindrome")
 
+add = lambda x, y: x + y
 
-add = lambda x,y : x+y
-
-print(add(3,4))
+print(add(3, 4))

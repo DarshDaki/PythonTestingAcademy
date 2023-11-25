@@ -11,4 +11,3 @@ if fact >= 0:
         else:
             print(f"{fact} = {result}", end="")
         fact = fact - 1
-
