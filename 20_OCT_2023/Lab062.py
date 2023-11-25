@@ -10,4 +10,4 @@ def sayHelloToYou(name):
 
 
 sayHelloToYou("Darshan")
-min(34,32)
+min(34, 32)
