@@ -42,6 +42,8 @@ print("Index of 3 in the copy list: ", my_copy_list.index(3))
 # sort()
 my_copy_list.sort()
 print(my_copy_list)
+my_copy_list.sort(reverse=True)
+print(my_copy_list)
 
 # reverse()
 my_copy_list.reverse()

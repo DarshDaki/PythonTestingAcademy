@@ -5,7 +5,7 @@ name = "Darshan"
 age = 34
 phone = 9876543210
 
-# variableName = varible Value
+# variableName = variable Value
 # Store the data - What type of data?
 # Dynamically Type? - Python
 
